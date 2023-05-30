@@ -1,0 +1,45 @@
+@charset "UTF-8";
+	.button{
+		padding: 5px 10px;
+		width:70px
+	}
+	.bigbody{
+        margin-top: 29px;
+		display:flex;
+		justify-content: center;
+		flex-direction: row;
+	}
+	.bigbody *{
+		text-align:center;
+	}
+	.infosidemenu{
+		width:200px;
+		position:fixed;
+		left:120px;
+	}
+	.infobody{
+		display:flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		width:700px;
+	}
+	.maininfobody{
+		display:flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		width:700px;
+		height:250px;
+	}
+	.sayhello{
+		display:flex;
+        justify-content: space-between;
+	}
+	.point{
+		width:100px
+	}
+	.infosidemenu>div{
+		margin:0;
+	}
+    .onorder{
+        margin: 20px 0;
+    }

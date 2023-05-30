@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bodymember {
+    font-family: 'NanumBarunGothic', 'Apple SD Gothic';
+}
+
+.memtable {
+    border-collapse: collapse;
+    top:210px;
+}
+
+.memtable tr {
+    padding: 5px
+}
+
+.memtable td {
+    padding: 3px 10px;
+    background-color: rgba(182, 182, 182, 0.075);
+    width: 400px;
+}
+
+.memtable td:nth-child(2) {
+    padding-top: 15px;
+}
+
+input {
+    font-family: inherit;
+    font-size: 12px;
+}
+
+.memtable .title {
+    font-size: 15px;
+    background-color: rgba(199, 199, 199, 0.425);
+    text-align: center;
+    width: 110px;
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+}
+
+.memtable .guide {
+    color: rgb(77, 77, 77);
+    font-size: 12px;
+}
+
+/* .inner{margin-bottom: 5px; height: 25px;} */
+.memtable .btn {
+    text-align: center;
+}
+
+.memtable .foot {
+    background: none;
+    padding-top: 20px;
+}
+
+.memtable .top {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.memtable .last {
+    padding-bottom: 15px;
+}
+
+
+/* letter-spacing:10px */
+.button {
+    padding: 10px 20px
+}
+
+.memtable .zcdbtn {
+    width: 150px;
+}
+
+.memtable{top: 208px;}

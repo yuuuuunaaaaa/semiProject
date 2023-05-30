@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.rev{
+	border-collapse:collapse;
+}
+.rev td{
+	border:solid 1px #00000085;
+	padding:5px;
+}
+.revfobody{
+	margin:20px auto;
+}
+.rev textarea{
+	width: 701px;
+    height: 246px;
+	border:none;
+	resize:none;
+	text-align:left;
+}
+	.rev .starRate{
+		padding-bottom:10px;
+	}
+  .star {
+    position: relative;
+    font-size: 1.5rem;
+    color: #dddddd9c;
+    height:35px
+  }
+  .star input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .star span {
+  	width: 100%;
+    position: absolute; 
+    left: 0;
+    color: #f4e41c;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .rev  .topborder{
+  	border-top: white;
+  	text-align:left;
+  	padding:10px
+  }
+  .rev  .botborder{
+  	border-bottom:white;
+  }
+  	.goBack{
+		text-align:center;
+	}
+	.toptr td{
+		padding:10px
+	}
+	.toptr>td input{
+		width:100px
+	}
+	#proname{
+		width:150px;
+	}
+	.title{
+		width:400px;
+		height:25px;
+		text-align:left;
+	}
+	.reg input, textarea{
+		padding:5px;
+	}

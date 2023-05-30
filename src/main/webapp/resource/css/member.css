@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* 로그인 */
+body {
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.lgnbox {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+
+.welcom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.memtable .phone {
+    width: 160px;
+}
+
+.welcom * {
+    text-align: center;
+}
+
+.succ {
+    margin: 10px 0;
+}
+.btn{
+	margin-top:20px;
+	display:flex;
+	width:300px;
+}
+#find {
+    width:170px;
+}
+
+

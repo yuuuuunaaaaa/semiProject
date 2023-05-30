@@ -1,0 +1,124 @@
+@charset "UTF-8";
+a{
+	text-decoration:none;
+	color:#3232325c;
+}
+.body2{
+	display:flex;
+	flex-direction: column;
+	align-items: center
+}
+.thumb{
+	width:400px;
+}
+
+.category{
+	width:800px;
+	margin:10px 0;
+	}
+.prodhead{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.sideright{
+	display:flex;
+	flex-direction: column;
+	padding: 0 30px;
+	justify-content: space-evenly;
+	height:400px;
+	width:400px;
+}
+.forCate{
+	display:flex;
+	flex-direction: column;
+}
+.qtt{
+	display:flex;
+	justify-content: space-between;
+}
+.totalPrice{
+	display:flex;
+	justify-content: space-between;
+}
+#qttnum{
+	width:40px;
+	text-align:center;
+	margin:0;
+	}
+.disabled{
+	border:none;
+	background-color:none;
+	text-align:center;
+	width:101px;
+	font-weight:bold;
+	font-size:20px
+}
+.paybtn{
+	display:flex;
+	justify-content: center;
+}
+hr{
+	margin: 10px 0;
+}
+.long{
+	width:140px;
+}
+.qtt{
+	margin-bottom:15px;
+	
+}
+.totalPrice{
+	margin-top:15px
+	
+}
+span{
+	margin:15px 0;
+	font-size:13px;
+}
+
+.title{
+	display:flex;
+	justify-content: space-between;
+}
+.title *{
+	font-size:30px
+}
+.prodbody{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.prodbody>div>div{
+	text-align:center;
+	margin-top:15px;
+}
+.img{
+	width:800px;
+}
+.dhr{
+	width:750px
+}
+.revTog{
+	display:flex;
+	margin-bottom:50px;
+}
+.revBtn{
+	margin:5px;
+}
+.review{
+	display:none;
+}
+.sale{
+	display:flex;
+}
+.price{
+	width:80px;
+	border:none;
+	background-color:none;
+	font-size:20px;
+	color:#c0c0c0;
+	text-decoration:line-through;
+	text-align:right;
+}

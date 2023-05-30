@@ -1,0 +1,46 @@
+@charset "UTF-8";
+table{
+	border-collapse:collapse;
+	border:solid 1px black;
+}
+.admTable{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+table *{
+	text-align:center;
+}
+th, td{
+	border:solid 1px black;
+	font-size:12px;	
+	padding:2px;
+}
+th{
+	font-size:13px;
+}
+.pwd{
+	border:none;
+	background-color:none;
+	width:60px;
+}
+.admbtn{
+	padding:2px 4px;
+	margin: 5px 7px;
+}
+.topbtn{
+	display:flex;
+	justify-content: space-evenly;
+}
+.pre{
+	margin:0;
+	padding:0;
+}
+.content{
+	width:250px;
+	height:150px;
+	resize: none;
+	border:none;
+	text-align:left;
+}
